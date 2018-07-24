@@ -33,3 +33,13 @@ footer {
   height: 15%;
   background-color: #000
 }
+
+@media (min-width: 800px) {
+  nav {
+    display: flex;
+    justify-content: space-around;
+  }
+  main {
+    display: flex;
+  }
+};
